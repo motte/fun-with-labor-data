@@ -4,8 +4,10 @@
   "private": true,
   "dependencies": {
     "axios": "^1.7.7",
+    "buffer": "^6.0.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-html-parser": "^2.0.2",
     "react-scripts": "5.0.1",
     "react-usa-map": "git+https://github.com/motte/react-usa-map.git",
     "xlsx": "^0.18.5"

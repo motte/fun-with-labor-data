@@ -1,4 +1,5 @@
 .App {
+  font-family: 'Helvetica Neue', sans-serif;
   text-align: center;
 }
 
@@ -13,10 +14,40 @@ path.state {
 path.state:hover, circle.DC2:hover {
   opacity: 0.50;
   cursor: pointer;
-  stroke: rgba(255,193,7,1.0);
+  stroke: #1E88E5;
 }
 
 h1.header {
-  font-family: 'Helvetica Neue', sans-serif;
+  color: #999;
   font-weight: 100;
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+h3.subheader {
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+table.state-data {
+  color: #333;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+}
+
+table.center {
+  margin: 40px auto 40px auto;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
 }
