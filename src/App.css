@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+}
+
+path, circle {
+  pointer-events: all;
+}
+
+path.state {
+  stroke: rgba(0,77,64,0.5);
+}
+
+path.state:hover, circle.DC2:hover {
+  opacity: 0.50;
+  cursor: pointer;
+  stroke: rgba(255,193,7,1.0);
+}
+
+h1.header {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: 100;
+}
