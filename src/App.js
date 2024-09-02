@@ -4,6 +4,7 @@ import USAMap from "react-usa-map";
 import axios from 'axios';
 import * as XLSX from 'xlsx';
 import ReactHTMLParser from 'react-html-parser';
+import ToggleModeButton from './components/ToggleModeButton/ToggleModeButton';
 
 class App extends Component {
 
@@ -74,6 +75,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <ToggleModeButton style={{ 'top': '0', 'position': 'absolute'}} />
         <h1 className="header">Mike's US Labor Data By State</h1>
         <h3 className="subheader">Accessible to color blind people.  Easily extensible to similar dataset files that could be loaded by the user.</h3>
         <USAMap defaultFill={"rgba(250,255,250,0.8)"} customize={this.statesFill()} onClick={this.mapHandler} onMouseOver={this.onHover} />

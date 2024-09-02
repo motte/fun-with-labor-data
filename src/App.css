@@ -3,6 +3,11 @@
   text-align: center;
 }
 
+body.dark {
+  color: #eee;
+  background-color: rgb(34, 38, 42);
+}
+
 path, circle {
   pointer-events: all;
 }
@@ -20,7 +25,7 @@ path.state:hover, circle.DC2:hover {
 h1.header {
   color: #999;
   font-weight: 100;
-  margin-top: 40px;
+  margin-top: 16px;
   margin-bottom: 0;
 }
 
@@ -46,6 +51,10 @@ td, th {
   border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
+}
+
+tr:nth-child(odd) {
+  background-color: #fff;
 }
 
 tr:nth-child(even) {
